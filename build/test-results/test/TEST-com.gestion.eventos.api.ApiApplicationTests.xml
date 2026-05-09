@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gestion.eventos.api.ApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-09T02:08:39.968Z" hostname="192.168.40.20" time="4.047">
+<testsuite name="com.gestion.eventos.api.ApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-09T02:30:52.975Z" hostname="192.168.40.20" time="5.73">
   <properties/>
-  <testcase name="contextLoads()" classname="com.gestion.eventos.api.ApiApplicationTests" time="0.543"/>
-  <system-out><![CDATA[21:08:40.155 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.gestion.eventos.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:08:40.279 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.gestion.eventos.api.ApiApplication for test class com.gestion.eventos.api.ApiApplicationTests
-21:08:40.367 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.gestion.eventos.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:08:40.369 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.gestion.eventos.api.ApiApplication for test class com.gestion.eventos.api.ApiApplicationTests
+  <testcase name="contextLoads()" classname="com.gestion.eventos.api.ApiApplicationTests" time="0.704"/>
+  <system-out><![CDATA[21:30:53.215 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.gestion.eventos.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:30:53.356 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.gestion.eventos.api.ApiApplication for test class com.gestion.eventos.api.ApiApplicationTests
+21:30:53.483 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.gestion.eventos.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:30:53.485 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.gestion.eventos.api.ApiApplication for test class com.gestion.eventos.api.ApiApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -16,32 +16,34 @@
 
  :: Spring Boot ::                (v4.0.6)
 
-2026-05-08T21:08:40.703-05:00  INFO 22962 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : Starting ApiApplicationTests using Java 21.0.11 with PID 22962 (started by luisbedoya in /Users/luisbedoya/Documents/Github/API-Events)
-2026-05-08T21:08:40.706-05:00  INFO 22962 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2026-05-08T21:08:41.265-05:00  INFO 22962 --- [api] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-08T21:08:41.288-05:00  INFO 22962 --- [api] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2026-05-08T21:08:41.625-05:00  INFO 22962 --- [api] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-08T21:08:41.807-05:00  INFO 22962 --- [api] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:90710efe-b708-40f1-aa50-f481141efe88 user=SA
-2026-05-08T21:08:41.812-05:00  INFO 22962 --- [api] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-08T21:08:41.854-05:00  INFO 22962 --- [api] [    Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-08T21:08:41.908-05:00  INFO 22962 --- [api] [    Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-05-08T21:08:42.426-05:00  INFO 22962 --- [api] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-08T21:08:42.508-05:00  INFO 22962 --- [api] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:90710efe-b708-40f1-aa50-f481141efe88]
+2026-05-08T21:30:53.894-05:00  INFO 23845 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : Starting ApiApplicationTests using Java 21.0.11 with PID 23845 (started by luisbedoya in /Users/luisbedoya/Documents/Github/API-Events)
+2026-05-08T21:30:53.897-05:00  INFO 23845 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-05-08T21:30:54.653-05:00  INFO 23845 --- [api] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-08T21:30:54.680-05:00  INFO 23845 --- [api] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2026-05-08T21:30:55.116-05:00  INFO 23845 --- [api] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-08T21:30:55.374-05:00  INFO 23845 --- [api] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cc7c5bdd-686b-41b6-a91f-4837b09a0c64 user=SA
+2026-05-08T21:30:55.376-05:00  INFO 23845 --- [api] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-08T21:30:55.426-05:00  INFO 23845 --- [api] [    Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-08T21:30:55.516-05:00  INFO 23845 --- [api] [    Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-08T21:30:56.140-05:00  INFO 23845 --- [api] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-08T21:30:56.263-05:00  INFO 23845 --- [api] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:cc7c5bdd-686b-41b6-a91f-4837b09a0c64]
 	Database driver: H2 JDBC Driver
 	Database dialect: H2Dialect
 	Database version: 2.4.240
-	Default catalog/schema: 90710EFE-B708-40F1-AA50-F481141EFE88/PUBLIC
+	Default catalog/schema: CC7C5BDD-686B-41B6-A91F-4837B09A0C64/PUBLIC
 	Autocommit mode: undefined/unknown
 	Isolation level: READ_COMMITTED [default READ_COMMITTED]
 	JDBC fetch size: 100
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-08T21:08:42.905-05:00  INFO 22962 --- [api] [    Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-08T21:08:42.914-05:00  INFO 22962 --- [api] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-08T21:08:43.004-05:00  WARN 22962 --- [api] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-08T21:08:43.458-05:00  INFO 22962 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : Started ApiApplicationTests in 3.006 seconds (process running for 4.487)
+2026-05-08T21:30:57.281-05:00  INFO 23845 --- [api] [    Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists events cascade 
+Hibernate: create table events (date date, id bigint generated by default as identity, location varchar(255), name varchar(255), primary key (id))
+2026-05-08T21:30:57.334-05:00  INFO 23845 --- [api] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-08T21:30:57.447-05:00  WARN 23845 --- [api] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-08T21:30:57.986-05:00  INFO 23845 --- [api] [    Test worker] c.g.eventos.api.ApiApplicationTests      : Started ApiApplicationTests in 4.397 seconds (process running for 6.079)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (/Users/luisbedoya/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)
